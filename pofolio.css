@@ -1,0 +1,433 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Train+One&family=Whisper&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background:#398E8A;
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+  font-family:"inter", sans-serif;
+  font-weight:500;
+}
+
+.links a{
+  color:white;
+  text-decoration:none;
+}
+
+.links{
+
+  display:flex;
+  gap:1.5rem;
+}
+
+
+.CV{
+  display:flex;
+  align-items:center;
+  padding:.5rem 1.5rem;
+  border: 2px solid white;
+  border-radius:1.2rem;
+  gap:.5rem;
+  /* margin: 5px 0 5px 0; */
+}
+
+span{
+  color:white;
+}
+
+/* clip-path: circle(78% at 30% 4%); */
+
+header{
+  clip-path: circle(78% at 30% 4%);
+  background:#074643;
+  height:100vh;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+header .texts-btn{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  gap:1rem;
+   
+}
+
+header .texts-btn .texts h1{
+font-family:train one;
+font-weight:500;
+font-size:2rem;
+text-wrap:none;
+margin-right:9rem;
+}
+
+
+header .texts-btn .texts p{
+  font-family:inter;
+  font-weight: 500;
+  font-size:1.5rem;
+}
+
+header .texts-btn .texts span{
+  font-family:inter;
+  font-weight:lighter;
+  font-size: 1rem;
+}
+
+header  .texts-btn .text-button{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap:1rem;
+  margin-top:13.5rem;
+  margin-right:.5rem;
+}
+
+header .texts-btn .text-button button{
+  background:black;
+  color: white;
+  padding: .4rem .7rem;
+  border: none;
+  border-radius: 1.5rem;
+  
+ }
+
+ .text-button{
+  position:relative;
+  right:21.5rem;
+   }
+
+ button{
+  font-size:1rem;
+ }
+
+ span{
+  font-size:1rem;
+ }
+
+header .theguy .imgguy{
+  position:absolute;
+  margin-top:-27rem;
+  margin-left:5rem;
+}
+
+header .texts-btn .header-section1{
+  display:flex;
+  margin-right:25rem;
+}
+
+
+.fas{
+  color:green;
+  font-size:1rem;
+}
+
+header .box .wht{
+ background:white;
+ border-radius:10px;
+ position:absolute;
+  top:62%;
+ padding: .5rem 1.7rem;
+ display: flex;
+ flex-direction:column;
+ font-family: inter;
+ align-items:center;
+ justify-content: center;
+ z-index: 2;
+ }
+
+
+
+header .box .wht #head{
+  font-weight:900;
+  font-size:2rem;
+  color: black;
+  display:flex;
+  align-items: center;
+  
+}
+
+header .box .wht #sp{
+  font-weight:700;
+  color:black;
+  text-align:center;
+  text-wrap:none;
+}
+
+span #head{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+ .body-section{
+margin:2rem 7rem 0 7rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:87%;
+
+}
+
+
+.content{
+  width:40%;
+  height:300px;
+  
+}
+
+.body-section .body-text h1{
+  font-family:inter;
+  font-weight:800;
+  font-size:50px;
+  line-height:60.51px; 
+margin-bottom:3px;
+}
+
+.body-section .body-text p{
+  font-family:inter;
+  font-weight:300;
+  font-size:29px;
+  line-height:35.1px;
+  margin-top:0px;
+  text-wrap:nowrap;
+  
+}
+
+.body-section .right-text p{
+  font-family:inter;
+  font-weight:400;
+  font-size:20px;
+  line-height:32px;
+  text-align:justify;
+  text-wrap:wrap;
+  position:relative;
+  z-index:30;
+}
+
+.body-download{
+  background:black;
+  display:flex;
+  align-items:center;
+  padding:.5rem 1.5rem;
+  border: 2px solid white;
+  border-radius:1.2rem;
+  gap:.5rem;
+  text-wrap: nowrap;
+  text-align:center;
+}
+
+.body-download span{
+  font-family: inter;
+}
+
+.left-side{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 1rem;
+}
+
+
+.left-side .body-download .social-media{
+  display:flex
+ 
+}
+
+.left-side .one-div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 7rem;
+
+  
+}
+
+.left-side .name {
+  font-family: whisper;
+  margin-right:25rem;
+  font-size:900;
+  font-weight:700;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer .footer-left{
+margin-left:6.5rem;
+margin-top: 5rem;
+}
+
+/* the 3 border on the left sharing the same properties */
+.footer .footer-left .age, .address, .phone{
+  border:2px solid rgb(175, 188, 206);
+  border-radius: 3rem;
+  padding: 15px 13rem 15px 3rem;
+  font-weight: bolder;
+}
+
+/* For spacing on elements under the borders on the left */
+.footer .footer-left .h4-left-space{
+  display: flex;
+  margin-left:3rem;
+  margin-right: 5rem;
+  text-align: justify;
+  }
+
+
+  .footer .footer-left .reside-right-space-email{
+    display: flex;
+    margin-left:1rem;
+    text-align: justify;
+    }
+  
+    /* for spacing/aligning USA */
+    .footer .footer-left .Residence-flex .reside-right-space{
+      margin-left:-.4rem;
+          }
+
+
+ .footer .footer-left .age, .phone{
+  display:flex;
+  /* justify-content: space-between; */
+
+  
+ }
+
+ .frelance-flex{
+  display:flex;
+}
+
+
+/* for spacing in between age */
+ .footer .footer-left .age .space-align-left{
+  display:flex;
+  text-align: center;
+  
+ 
+ }
+
+/* for spacing in between age */
+ .footer .footer-left .age .space-align-right{
+  display:flex;
+  text-align: center;
+  /* padding-right:5rem; */
+  gap: 2rem;
+   
+ }
+
+ .footer .footer-left .address, .space-align-right{
+  display:flex;
+  text-align: center;
+  padding-right:7rem;
+   gap: 5rem;
+ }
+
+ .footer .footer-left .age, .space-align-right{
+  display:flex;
+  text-align: center;
+  padding-right:4.5rem;
+  gap:7rem;
+ }
+
+
+ /* for content under the border on the left sharing the same properties */
+ .Residence-flex, .email-flex, .address, .phone{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+
+/* For aligning phone number */
+ .footer .footer-left .phone .space-align-phone-right{
+  display:flex;
+  text-align: center;
+  padding-left:6rem;
+  }
+
+
+.footer .footer-left .age .set-right{
+  display:flex;
+  text-align: center;
+  justify-content: space-between;
+ 
+ }
+ 
+.footer-right{
+  border:2px solid rgb(135, 180, 243);
+  border-radius: 1rem;
+  padding: 1.8rem 1rem .5rem 1rem;
+  margin-right:3rem;
+  z-index: 20;
+}
+
+ 
+
+.footer .footer-right .border-1, .border-2,
+ .border-3, .border-4{
+  border:2px solid rgb(135, 180, 243);
+  border-radius:1rem;
+  
+}
+
+.footer .footer-right .set-right, .set-left{
+  display: flex;
+  gap: 2rem;
+  padding:1rem;
+  text-align: center;
+  z-index: 5;
+}
+
+.footer-right .set-left .border-1, .border-2, .border-3, .border-4{
+  padding:1.5rem 4rem 1.5rem 4rem ;
+  font-weight:bold;
+  
+}
+
+
+.footer-right .set-left .border-1, .border-2, h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 800;
+
+}
+
+.footer-right .set-right .border-3, .border-4, h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.footer-right .set-left .border-1, .border-2, h5{
+margin-top:-.9rem;
+}
+
+.footer-right .set-right .border-3, .border-4, h5{
+  margin-top:-.9rem;
+  }
+
+  .green-box{
+    display: flex;
+    flex-direction: column;
+    background-color:#074643;
+    height: 70rem;
+    width:15rem;
+    justify-content:end;
+    margin-right: 0;
+    margin-left: 69rem;
+    z-index: 10;
+    position:absolute;
+
+  }
